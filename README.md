@@ -402,7 +402,57 @@ Better Data Collection
 ✅ Comprehensive Webflow form captures all details ✅ Documents can be uploaded upfront ✅ Notes field for special instructions
 Professional Communication
 ✅ Cost breakdown provided immediately to requestor ✅ "Invoice to follow with final report" sets clear expectations ✅ Custodian receives only relevant information
-
+crashify/
+├── README.md 
+│
+├── docs/
+│   ├── technical-architecture.md
+│   ├── api-documentation.md
+│   ├── user-guide.md
+│   ├── investor-deck.pdf (Pitch deck)
+│   ├── financial-model.xlsx (3-year projections)
+│   └── security-whitepaper.md
+│
+├── workflows/
+│   ├── booking-workflow.json (n8n export)
+│   ├── photo-processing.json (n8n export)
+│   ├── expiry-checker.json (n8n export)
+│   └── notification-system.json (n8n export)
+│
+├── frontend/
+│   ├── photo-upload-portal/
+│   │   ├── src/
+│   │   ├── public/
+│   │   ├── package.json
+│   │   └── README.md
+│   └── booking-form/
+│       └── webflow-embed-code.html
+│
+├── templates/
+│   ├── email-templates/
+│   │   ├── requestor-confirmation.html
+│   │   ├── custodian-upload-instructions.html
+│   │   ├── admin-new-assessment.html
+│   │   ├── reminder-24hr.html
+│   │   └── expiry-notification.html
+│   ├── sms-templates/
+│   │   └── urgent-notification.txt
+│   └── invoice-templates/
+│       └── assessment-invoice.html
+│
+├── analytics/
+│   ├── metrics-dashboard/ (Planned - Phase 2)
+│   └── kpi-tracker.xlsx
+│
+├── legal/
+│   ├── terms-of-service.md
+│   ├── privacy-policy.md
+│   └── customer-contract-template.pdf
+│
+└── media/
+    ├── logos/
+    ├── screenshots/
+    └── demo-video.mp4
 📞 Next Steps for Implementation
 Update Webflow Form
 Implement new field structure
