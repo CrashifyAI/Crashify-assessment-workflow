@@ -3,6 +3,27 @@ Revolutionizing vehicle insurance assessments with AI automation and remote phot
 
 📊 Executive Summary
 Crashify is an automated vehicle assessment that eliminates the need for costly and time-consuming onsite visits by leveraging AI-powered photo analysis and intelligent workflow automation.
+## 🔄 Dual-Flow Architecture
+
+- **Requestor-facing:** Always framed as an onsite assessment.
+- **Custodian-facing:** May involve remote photo upload via secure portal.
+- **Admin-facing:** Full visibility of upload status, expiry, and metadata.
+
+## 🧠 Workflow Automation
+
+- **Webflow Form:** Collects all assessment data.
+- **n8n Automation:** Triggers webhook, calculates pricing, sends notifications.
+- **Photo Upload Portal:** Mobile-first, GPS/timestamped, AI-analyzed.
+- **IQ Controls API:** Final report generation and delivery.
+
+## 📦 Key Components
+
+- Webflow multi-step form with conditional logic
+- n8n webhook and reminder flows
+- AI photo analysis (Claude AI)
+- IQ Controls API integration
+- Professional email templates
+- Invoice generation post-assessment
 
 🎯 Understanding Our Two Client Types
 Client Type 1: Assessment Requestor (Primary Client)
@@ -399,6 +420,11 @@ Configure Invoice System
 Set up separate invoicing workflow
 Link to final report delivery
 Test invoice generation
+## 📎 Documentation
+
+See [`docs/Crashify_Updated_Workflow.pdf`](docs/Crashify_Updated_Workflow.pdf) for full technical and business details.
+
+---
 
 Built with ❤️ in Australia | Powered by AI | Transforming Insurance Assessments
 
