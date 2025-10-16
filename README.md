@@ -1,3 +1,5 @@
+![Crashify Key Features](cf5dbe4ccf.png)
+
 🚗 Crashify - AI-Powered Vehicle Assessment 
 Revolutionizing vehicle insurance assessments with AI automation and remote photo analysis
 
