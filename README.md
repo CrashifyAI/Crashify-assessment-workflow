@@ -380,10 +380,10 @@ Includes all pricing breakdown
 📊 Updated Business Model
 Revenue Streams
 Per Assessment (Charged to Requestor) AS ONSITE:
-Light Vehicle Assessment: $250 base
-Heavy Vehicle Assessment: $350 base
-Machinery Assessment: $450 base
-Post-Repair Inspection: $250 base
+Light Vehicle Assessment:  base
+Heavy Vehicle Assessment:  base
+Machinery Assessment:  base
+Post-Repair Inspection:  base
 Additional Fees:
 Urgent Same-Day: +$80
 Total Loss Assessment: +$80
