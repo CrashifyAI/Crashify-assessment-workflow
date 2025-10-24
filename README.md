@@ -115,9 +115,9 @@ Assessment Configuration
   - [ ] Post-Repair Inspection
   
 • Vehicle Category:
-  - [ ] Light Vehicle ($250 base)
-  - [ ] Heavy Vehicle ($350 base)
-  - [ ] Machinery ($450 base)
+  - [ ] Light Vehicle ( base)
+  - [ ] Heavy Vehicle ( base)
+  - [ ] Machinery (base)
 
 • Urgency:
   - [ ] Standard (48-72 hours)
